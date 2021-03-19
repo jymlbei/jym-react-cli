@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "jsx": "react",
+    "paths": {
+      "@components/*": ["./src/components/*"],
+      "@config/*": ["./src/config/*"],
+      "@asset/*": ["./src/asset/*"],
+      "@mock/*": ["./src/mock/*"],
+      "@page/*": ["./src/page/*"],
+      "@util/*": ["./src/util/*"],
+      "@store/*": ["./src/store/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
